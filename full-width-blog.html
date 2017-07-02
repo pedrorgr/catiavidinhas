@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+ 	<link rel="stylesheet" type="text/css" href="style.css"/>
+ 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="navbar.css"/>
+	<link href="fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<title>Miny - Minimal Portfolio</title>
+</head>
+<body>
+
+	<!-- Header / Navigation-Menu -->
+<div class="header">
+  <nav class="navbar navbar-default" >
+  <div class="container nav-container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MINY</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Home<hr> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="index.html">Home V1 <hr></a></li>
+          <li><a href="index_v2.html">Home V2 <hr></a></li>
+        </ul>
+      </li>
+        <li><a data-toggle="collapse" data-target=".navbar-collapse.in" href="about.html">About<hr></a></li>
+         <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<hr> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="portfolio2x.html">2 Column <hr></a></li>
+          <li><a href="portfolio3x.html">3 Column <hr></a></li>
+          <li><a href="portfolio4x.html">4 Column <hr></a></li>
+        </ul>
+      </li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<hr> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="blog-sidebar.html">Sidebar <hr></a></li>
+          <li><a href="full-width-blog.html">Full Width <hr></a></li>
+          <li><a href="blog-grid.html">Grid <hr></a></li>
+        </ul>
+      </li>
+        <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                           Contact
+                           <hr>
+                           <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li>
+                              <a href="contact.html">
+                                 Contact v1
+                                 <hr>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="contact_v2.html">
+                                 Contact v2 
+                                 <hr>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div><!-- END of Header -->
+
+
+
+<div class="container fullWidth-blog-content">
+  <div class="title">
+      <h2>Full Width - Blog</h2>
+      <p>Donec vitae pulvinar metus, vel consectetur.<br> Vivamus ut dui quis dui venenatis feugiat sit amet non dui.</p>
+  </div>
+
+
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <article class="sidebar-article">
+      <a href="single-blog.html"><img src="images/blog_1.jpg" alt=""></a>
+      <h2>Donec vitae pulvinar.</h2>
+      <h3>by : <strong><a href="#">John Doe</a></strong> &nbsp; posted : <strong>23 February, 2017</strong> &nbsp; in : <strong><a href="#">Branding</a></strong></h3>
+      <p>Nunc neque nibh, mattis a sodales in, viverra id neque. Aenean euismod quis nulla eget sodales. Curabitur suscipit nisi eu urna finibus dictum et nec purus. Donec nec mollis elit, vel tristique ipsum. Morbi non rhoncus urna, sit amet mollis urna. Sed sagittis a ex sit amet accumsan.</p>
+      <button onclick="window.location.href='single-blog.html'"> Read More </button>
+    </article>
+    <article class="sidebar-article">
+      <a href="single-blog.html"><img src="images/blog_2.jpg" alt=""></a>
+      <h2>Donec vitae pulvinar.</h2>
+      <h3>by : <strong><a href="#">John Doe</a></strong> &nbsp; posted : <strong>23 February, 2017</strong> &nbsp; in : <strong><a href="#">Design, Creative</a></strong></h3>
+      <p>Nunc neque nibh, mattis a sodales in, viverra id neque. Aenean euismod quis nulla eget sodales. Curabitur suscipit nisi eu urna finibus dictum et nec purus. Donec nec mollis elit, vel tristique ipsum. Morbi non rhoncus urna, sit amet mollis urna. Sed sagittis a ex sit amet accumsan.</p>
+      <button onclick="window.location.href='single-blog.html'"> Read More </button>
+    </article>
+    <article class="sidebar-article">
+      <a href="single-blog.html"><img src="images/blog_3.jpg" alt=""></a>
+      <h2>Donec vitae pulvinar.</h2>
+      <h3>by : <strong><a href="#">John Doe</a></strong> &nbsp; posted : <strong>23 February, 2017</strong> &nbsp; in : <strong><a href="#">Branding, Artwork</a></strong></h3>
+      <p>Nunc neque nibh, mattis a sodales in, viverra id neque. Aenean euismod quis nulla eget sodales. Curabitur suscipit nisi eu urna finibus dictum et nec purus. Donec nec mollis elit, vel tristique ipsum. Morbi non rhoncus urna, sit amet mollis urna. Sed sagittis a ex sit amet accumsan.</p>
+      <button onclick="window.location.href='single-blog.html'"> Read More </button>
+    </article>
+
+  </div>
+
+
+</div>
+
+</div>
+
+
+  <footer>
+  <div class="container">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 social_footer">
+      <a href="#"><section><i class="fa fa-facebook" aria-hidden="true"></i></section></a>
+      <a href="#"><section><i class="fa fa-twitter" aria-hidden="true"></i></section></a>
+      <a href="#"><section><i class="fa fa-behance" aria-hidden="true"></i></section></a>
+      <a href="#"><section><i class="fa fa-pinterest-p" aria-hidden="true"></i></section></a>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 copyrights">
+      <p>Copyrights &copy; 2017. <strong>Miny</strong> by dronthemes.</p>
+    </div>
+  </div>
+</footer>
+
+  <script src="js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/navbar.js"></script>
+</body>
+</html>
